@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* index.html */
+
+.main-card {
+    width: 500px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    border: 5px solid rgb(0, 20, 107);
+    padding: 1rem;
+    background-color: #bfd5ea;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+}
+
+a:hover {
+    font-weight: bold;
+    background-color: #ffc8d0c2;
+    border: 2px solid black;
+}
